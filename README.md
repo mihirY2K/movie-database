@@ -1,29 +1,23 @@
-# Hack4Impact Fall 2025 Application Assessment
+A responsive web application that allows users to search for movies and view detailed information about them. Built using React, TypeScript, HTML, and CSS, and powered by the OMDB API.
 
-Welcome to the Hack4Impact Fall 2025 application assessment! This project is a movie search application built with React, TypeScript, and Vite.
+Features
 
-## Your Task
+Search Movies: Enter a movie title and instantly fetch results from the OMDB API.
 
-Your goal is to complete the functionality of this application. You have been provided with a set up codebase.
-Follow the instructions below to get started on the assessment. The document with more detailed instructions for the assessment is also linked [here](https://docs.google.com/document/d/1YnB-So54uxA1HWc7AAPNUiTJKy87G6j0KEiadN5iwAg/edit?usp=sharing).
+Movie Details: Click on a movie to view detailed information, including release date, genre, actors, plot, and ratings.
 
-## Getting Started
+Responsive Design: Works on both desktop and mobile devices.
 
-1.  **Install Dependencies:**
-    ```bash
-    npm install
-    ```
+TypeScript Integration: Ensures type safety and maintainable code.
 
-2.  **Set up your Environment:**
-    You will need an API key from the [OMDB API](http://www.omdbapi.com/apikey.aspx). Once you have your key, create a `.env` file in the root of the project and add your API key to it:
-    ```
-    VITE_OMDB_API_KEY=YOUR_API_KEY
-    ```
+Technologies Used
 
-3.  **Run the Development Server:**
-    ```bash
-    npm run dev
-    ```
-    The application will be available at `http://localhost:5173`.
+React – For building dynamic UI components.
 
-Good luck! We look forward to seeing your work.
+TypeScript – For type-safe JavaScript development.
+
+HTML & CSS – For structuring and styling the web pages.
+
+OMDB API – To fetch movie data.
+
+Vite – For project scaffolding and fast development server.
